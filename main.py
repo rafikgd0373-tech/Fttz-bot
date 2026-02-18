@@ -14,7 +14,7 @@ from io import BytesIO
 #  إعدادات البوت
 # ─────────────────────────────────────────────
 PREFIX = "!"
-TOKEN = os.environ.get("TOKEN", "YOUR_TOKEN_HERE")
+TOKEN = os.environ.get("TOKEN", "MTQ3MzQ4NjE0OTA5MDgwODEyMg.GqR580.8mcAr5whJ3EANsn4jZ1qjFNwhbW_fA9zETb71w")
 
 WELCOME_CHANNEL_ID = 1470539807074549850
 GOODBYE_CHANNEL_ID = 1470539840314671134
