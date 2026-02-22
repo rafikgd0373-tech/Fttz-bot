@@ -14,7 +14,7 @@ from typing import Optional
 #  إعدادات البوت
 # ═════════════════════════════════════════════
 PREFIX = "!"
-TOKEN = os.environ.get("TOKEN", "YOUR_TOKEN_HERE")
+TOKEN = os.environ.get("TOKEN", "MTQ3MzQ4NjE0OTA5MDgwODEyMg.G9Ud9L.DXqJwAhP0KKJBYkDdpamuuBfKyythGBHupmOd4")
 LIME_COLOR = 0x00FF00  # 🟢 لون Lime
 
 WELCOME_CHANNEL_ID = 1470539807074549850
