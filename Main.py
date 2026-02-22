@@ -276,20 +276,21 @@ async def on_message(message):
     content = message.content.strip().lower()
     
     # Greetings
-    arabic_greets = ["هلا", "اهلا", "أهلا", "سلام عليكم", "السلام عليكم", 
-                     "السلام عليكم ورحمة الله وبركاته", "سلام عليكم ورحمة الله وبركاته"]
+    arabic_greets = ["هلا", "اهلا", "أهلا", "سلام عليكم", "السلام عليكم",
+                     "السلام عليكم ورحمة الله وبركاته",
+                     "سلام عليكم ورحمة الله وبركاته"]
     english_greets = ["hi", "hello", "hi guys", "hey", "hey guys"]
-    
+
     for g in arabic_greets:
         if content == g:
-            await message.channel.send(f"وعليكم السلام ورحمة الله وبركاته {message.author.mention}! 👋")
+            await message.channel.send(f"وعليكم السلام ورحمة الله وبركاته {message.author.mention}! 👋🌸")
             break
     else:
         for g in english_greets:
             if content == g:
                 await message.channel.send(f"Hello {message.author.mention}! Welcome 👋😊")
                 break
-    
+
     # XP from messages
     data = load_data()
     user = get_user(data, message.author.id)
